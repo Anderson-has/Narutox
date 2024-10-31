@@ -1,0 +1,29 @@
+.favorites-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .favorite-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem 0;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .favorite-card-content {
+    padding: 1rem;
+  }
+  
+  .favorite-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .favorite-birthday {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+  

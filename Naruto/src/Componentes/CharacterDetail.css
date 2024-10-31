@@ -1,0 +1,50 @@
+.character-detail-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .character-card {
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .character-carousel {
+    width: 100%;
+    height: auto;
+  }
+  
+  .character-carousel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-bottom: 1px solid #41e731;
+  }
+  
+  .character-content {
+    padding: 1.5rem;
+  }
+  
+  .character-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .character-content .MuiTypography-root {
+    margin: 0.3rem 0;
+    font-size: 1.1rem;
+  }
+  
